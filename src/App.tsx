@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+ 
   const [name , setName] = useState("");
   const [message , setMessage] = useState("")
 
   return (
     <>
      <h1>Contact form</h1>
-     <form name="contact" method="POST">
+     <form name="contact" method="POST" >
   <input type="hidden" name="form-name" value="contact" />
   <div className="input">
     <label htmlFor="name">Name</label>
